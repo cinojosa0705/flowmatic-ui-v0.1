@@ -24,3 +24,19 @@ a {
 .wallet-adapter-button:not([disabled]):hover {
   background-color: #707070;
 }
+
+.scroll-container {
+  overflow-y: auto;
+  max-height: 100%;
+  scrollbar-width: thin;
+  scrollbar-color: #5252529f transparent;
+}
+
+.scroll-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: #5252529f;
+  border-radius: 3px;
+}

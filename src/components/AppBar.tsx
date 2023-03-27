@@ -23,7 +23,6 @@ export const AppBar: React.FC = () => {
           <div className="hidden sm:inline w-22 h-22 md:p-2 ml-10">
             <Link
               href="/"
-              target="_blank"
               rel="noopener noreferrer"
               passHref
               className="text-secondary hover:text-white"

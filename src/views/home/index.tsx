@@ -42,9 +42,9 @@ export const HomeView: FC = ({ }) => {
         </h4>
         <div className="relative group">
           <div className="absolute -inset-0.5 bg-gradient-to-r from-green-500 to-black rounded-lg blur opacity-40 animate-tilt"></div>
-          <div className="max-w-xl mx-auto mockup-code bg-primary border-2 border-[#5252529f] p-6 px-10 my-2">
-            <pre data-prefix=">">
-              <code className="truncate">{`order 20 BTC @ 20,000 spread-5 skew-0.3 bps-4`} </code>
+          <div className="max-w-xl mx-auto mockup-code bg-primary border-2 border-[#5252529f] p-6 px-10 my-2 ">
+            <pre className="text-green-500" data-prefix=">">
+              <code className="truncate text-green-500">{`place 20 BTC bid @ 20,000 spread-5 skew-0.3 bps-4`} </code>
             </pre>
           </div>
         </div>
